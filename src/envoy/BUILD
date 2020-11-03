@@ -34,6 +34,7 @@ envoy_cc_binary(
         "//src/envoy/http/alpn:config_lib",
         "//src/envoy/http/authn:filter_lib",
         "//src/envoy/http/mixer:filter_lib",
+        "//src/envoy/http/parser:http_parser",
         "//src/envoy/tcp/forward_downstream_sni:config_lib",
         "//src/envoy/tcp/metadata_exchange:config_lib",
         "//src/envoy/tcp/mixer:filter_lib",
